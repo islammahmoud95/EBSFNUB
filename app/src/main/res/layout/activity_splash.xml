@@ -1,0 +1,16 @@
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.islammahoud.ebsfnub.Activties.splash"
+    android:background="@drawable/splasj">
+     <ImageView
+         android:id="@+id/splash"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@drawable/logo"/>
+
+</LinearLayout>

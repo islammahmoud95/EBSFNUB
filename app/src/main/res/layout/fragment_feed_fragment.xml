@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.islammahoud.ebsfnub.Fragments.Feed_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        />
+
+    <EditText
+        android:id="@+id/efeedbacktext"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_member_border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/feedback_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/selector_button"
+        android:text="Send your feedback"
+        android:textColor="#fff" />
+</LinearLayout>
+</FrameLayout>
